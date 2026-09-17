@@ -1,5 +1,5 @@
 import React from 'react';
-import { EvidenceChart, DataComponent, Section, SectionHeader, SortableRegion, SortableItem, SegmentedControl, barChartSpec, useDataApp, useDashboardTabs } from '../../data-app-public.jsx';
+import { EvidenceChart, DataComponent, Section, SectionHeader, SortableRegion, SortableItem, SegmentedControl, Icon, barChartSpec, useDataApp, useDashboardTabs } from '../../data-app-public.jsx';
 import { DEFAULT_CROPS, COLORS, scopeRows, buildView, csvFor } from './vegetables.js';
 import './vegetables.css';
 
@@ -7,6 +7,34 @@ const TABS = [{ id:'harvest', label:'全国の収穫量', filterIds:['vegetable'
 const years = Array.from({length:52},(_,i)=>1973+i);
 const number = n => n == null ? '—' : new Intl.NumberFormat('ja-JP',{maximumFractionDigits:0}).format(n);
 const signed = n => n == null ? '—' : `${n > 0 ? '+' : ''}${n.toFixed(1)}%`;
+
+function ToolbarGuide() {
+  return <details className="veg-toolbar-guide" open>
+    <summary>右上のアイコン・ボタンの使い方</summary>
+    <dl className="veg-toolbar-guide-items">
+      <div>
+        <dt><Icon name="more" size={18} /><span>…（More／その他）</span></dt>
+        <dd>配色の変更、ページの複製、PDFなどへの書き出しを選びます。複製・書き出しはChatGPTに依頼します。</dd>
+      </div>
+      <div>
+        <dt><Icon name="edit" size={18} /><span>鉛筆（編集）</span></dt>
+        <dd>見出しや図表の配置を編集します。Saveで保存、Cancelで編集前の状態に戻します。</dd>
+      </div>
+      <div>
+        <dt><Icon name="chatBubble" size={18} /><span>Ask ChatGPT（質問）</span></dt>
+        <dd>表示中のグラフや選択条件についてChatGPTに質問します。日本語で回答するよう指定しています。</dd>
+      </div>
+      <div>
+        <dt><span className="veg-toolbar-guide-publish">Publish</span><span>公開</span></dt>
+        <dd>共有範囲を指定し、ChatGPTに公開作業を依頼します。このGitHub Pagesの更新は管理者が行います。</dd>
+      </div>
+    </dl>
+    <div className="veg-toolbar-guide-notes">
+      <p>画面が狭いときは、一部の操作が「…（More）」にまとまります。ChatGPTへの依頼は、開いた画面で内容を確認して送信します。</p>
+      <p>PDF・Google Slidesなどの変換で、このサイトのURLが対象外と表示された場合は、<a href="https://github.com/katzkawai/kklab-vegetables-stats/archive/refs/heads/main.zip">元プロジェクト（ZIP）</a>をダウンロードし、ChatGPTに渡してください。公開用HTMLと元データを同梱しています。<a href="https://github.com/katzkawai/kklab-vegetables-stats" target="_blank" rel="noreferrer">ソースコードを見る ↗</a></p>
+    </div>
+  </details>;
+}
 
 export function DashboardContent() {
   const shell = useDataApp();
@@ -45,6 +73,7 @@ export function DashboardContent() {
   const chartStyle = { colors:COLORS, showXAxisLabel:false, showYAxisLabel:true, startAtZero:true, valueDecimals:1, stackable:false };
   return <article className="veg-page">
     <div className="veg-meta"><span>農林水産省「作物統計調査」</span><span>全国・年間計</span><span>1973–2024年</span></div>
+    <ToolbarGuide />
     <div className="veg-controls" aria-label="表示条件">
       <div className="veg-period">
         <label>開始年<select aria-label="開始年" value={start} onChange={e=>focus({start:e.target.value,end:String(Math.max(Number(e.target.value),end))})}>{years.map(y=><option key={y} value={y}>{y}年</option>)}</select></label>
