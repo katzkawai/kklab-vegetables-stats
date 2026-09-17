@@ -4,7 +4,7 @@
 
 このサイトは GPT 6 Astra で作成されました。
 
-**公開ページ：https://katzkawai.github.io/kklab-vegetables-stats/**
+**公開ページ：https://katzkawai.org/kklab-vegetables-stats/**
 
 - 1973〜2024年、現在の指定野菜に対応する15品目
 - 期間・品目選択、収穫量（万t）と指数（開始年＝100）の切替
