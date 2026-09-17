@@ -1,0 +1,35 @@
+.veg-page { --veg-accent:#29704e; color:var(--text); }
+.veg-meta { display:flex; flex-wrap:wrap; gap:10px 24px; color:var(--secondary); font-size:13px; padding:4px 0 22px; }
+.veg-controls { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; padding:0 0 22px; }
+.veg-period { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+.veg-period label { display:flex; align-items:center; gap:8px; font-size:13px; color:var(--secondary); }
+.veg-period select { font:inherit; font-size:14px; color:var(--text); border:1px solid var(--border-strong); border-radius:8px; background:var(--control); padding:9px 12px; }
+.veg-page button { cursor:pointer; }
+.veg-text-button, .veg-preset button { border:0; background:transparent; color:var(--text); font:inherit; font-size:13px; text-decoration:underline; text-underline-offset:4px; padding:6px 2px; }
+.veg-download { border:1px solid var(--border-strong); border-radius:8px; padding:10px 14px; font:inherit; font-size:13px; color:var(--text); background:var(--control); }
+.veg-crops { padding:0; border:0; margin:0; min-width:0; }
+.veg-crops legend { font-size:14px; font-weight:600; padding:0; float:left; margin-bottom:12px; }
+.veg-crops legend span { font-size:12px; font-weight:400; color:var(--secondary); margin-left:8px; }
+.veg-preset { display:flex; justify-content:flex-end; flex-wrap:wrap; gap:14px; margin-bottom:10px; }
+.veg-chips { display:flex; flex-wrap:wrap; gap:8px; clear:both; }
+.veg-chip { display:inline-flex; align-items:center; gap:7px; border:1px solid var(--border); border-radius:7px; padding:8px 10px; font-size:13px; background:var(--surface); color:var(--secondary); cursor:pointer; }
+.veg-chip.is-selected { border-color:color-mix(in srgb,var(--crop-color) 45%,var(--border)); color:var(--text); background:color-mix(in srgb,var(--crop-color) 7%,var(--background)); }
+.veg-chip input { accent-color:var(--crop-color); margin:0; width:13px; height:13px; }
+.veg-dot { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--crop-color); flex-shrink:0; }
+.veg-chart-note { color:var(--secondary); font-size:12px; line-height:1.8; margin:12px 0 0; }
+.veg-missing { font-size:12px; line-height:1.8; color:var(--text); background:var(--muted); padding:10px 12px; border-radius:7px; margin:10px 0 0; }
+.veg-table-scroll { overflow-x:auto; max-width:100%; }
+.veg-table { width:100%; border-collapse:collapse; font-size:13px; font-variant-numeric:tabular-nums; }
+.veg-table th, .veg-table td { padding:12px 16px; border-bottom:1px solid var(--border); text-align:right; white-space:nowrap; }
+.veg-table th:first-child { text-align:left; }
+.veg-table thead th { font-weight:500; color:var(--secondary); font-size:12px; }
+.veg-table tbody th { font-weight:500; }
+.veg-table .veg-dot { margin-right:10px; }
+.veg-sources { margin:48px 0 20px; border-top:1px solid var(--border); padding-top:24px; font-size:12px; line-height:1.9; color:var(--secondary); }
+.veg-sources h2 { font-size:14px; color:var(--text); margin:0 0 12px; font-weight:600; }
+.veg-sources p { max-width:1050px; margin:0 0 9px; }
+.veg-source-links { display:flex; flex-wrap:wrap; gap:8px 24px; padding:10px 0 18px; }
+.veg-source-links a { color:var(--text); text-decoration:underline; text-underline-offset:4px; }
+.veg-date { font-size:11px; }
+.veg-page :is(button,select,input,a):focus-visible { outline:2px solid var(--veg-accent); outline-offset:3px; }
+@media(max-width:600px) { .veg-controls{gap:12px;} .veg-period{gap:8px;} .veg-period label{gap:5px;} .veg-period select{padding:8px;} .veg-chip{font-size:12px;padding:7px 8px;} .veg-table th,.veg-table td{padding:11px 12px;} .veg-meta{gap:6px 14px;} .veg-crops legend{float:none;} .veg-preset{justify-content:flex-start;} }

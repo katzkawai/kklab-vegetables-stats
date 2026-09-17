@@ -1,0 +1,57 @@
+const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const browser = await chromium.launch({executablePath:process.env.CHROME_PATH || '/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+try {
+ const page=await browser.newPage({viewport:{width:1440,height:1000},locale:'ja-JP'});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(process.env.TEST_URL || 'http://127.0.0.1:8766/',{waitUntil:'networkidle'});
+ await page.waitForSelector('.recharts-line-curve');
+ assert.equal(await page.locator('.recharts-line-curve').count(),6);
+ assert.equal(await page.locator('.veg-table tbody tr').count(),6);
+ assert.match(await page.locator('.veg-table').innerText(),/2,295,000/);
+ await page.getByRole('button',{name:'指数（開始年＝100）',exact:true}).click();
+ await page.waitForTimeout(250);
+ assert.match(await page.locator('.veg-chart-note').first().innerText(),/2000年の収穫量/);
+ await page.getByRole('button',{name:'全期間',exact:true}).click();
+ assert.equal(await page.getByLabel('開始年',{exact:true}).inputValue(),'1973');
+ await page.waitForTimeout(250);
+ assert.equal(await page.locator('.recharts-line-curve[d]').count(),5);
+ assert.match(await page.locator('.veg-missing').innerText(),/1989/);
+ await page.getByRole('button',{name:'全15品目',exact:true}).click();
+ assert.equal(await page.locator('.veg-table tbody tr').count(),15);
+ assert.equal(await page.locator('.veg-chips input:checked').count(),15);
+ await page.getByLabel('開始年',{exact:true}).selectOption('2000');
+ await page.waitForTimeout(250);
+ assert.equal(await page.locator('.recharts-line-curve').count(),15);
+ assert.equal(await page.locator('.veg-missing').count(),0);
+ const downloadPromise=page.waitForEvent('download');
+ await page.getByRole('button',{name:'表示中のデータをCSV保存 ↓',exact:true}).click();
+ const download=await downloadPromise;
+ const csv=await fs.readFile(await download.path(),'utf8');
+ assert.equal(csv.split('\r\n').length,376);
+ assert.match(csv,/"2024","ブロッコリー","160500"/);
+ await page.getByRole('button',{name:'初期表示',exact:true}).click();
+ for(const width of [320,375,768,1440]) {
+   await page.setViewportSize({width,height:1000});await page.waitForTimeout(250);
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`overflow ${width}`);
+   const bounds=await page.locator('.recharts-surface').evaluateAll(nodes=>nodes.map(n=>({width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height})));
+   assert.ok(bounds.every(b=>b.width>100&&b.height>100));
+   await page.screenshot({path:`/tmp/vegetables-${width}.png`,fullPage:true});
+ }
+ await page.getByLabel('開始年',{exact:true}).selectOption('2024');
+ await page.waitForTimeout(250);
+ assert.equal(await page.locator('.recharts-line-dot').count(),6);
+ assert.match(await page.locator('.veg-table').innerText(),/0.0%/);
+ await page.getByRole('button',{name:'初期表示',exact:true}).click();
+ const shareURL=page.url(); await page.reload({waitUntil:'networkidle'});
+ assert.equal(await page.locator('.veg-chips input:checked').count(),6);
+ await page.locator('[data-component-id=harvest-trend]').getByRole('button',{name:/actions/}).click();
+ await page.getByRole('menuitem',{name:'View data source',exact:true}).click();
+ await page.waitForTimeout(200);
+ assert.match(await page.locator('body').innerText(),/野菜生産出荷統計/);
+ await page.screenshot({path:'/tmp/vegetables-source.png'});
+ assert.match(await page.locator('body').innerText(),/このサイトは GPT 6 Astra で作成されました/);
+ assert.deepEqual(errors,[]);
+ console.log('PASS: chart marks, index baseline, null history, all/reset, CSV (375 rows), year selection, URL restoration, and 320/375/768/1440px layouts.');
+} finally { await browser.close(); }

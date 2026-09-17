@@ -1,0 +1,56 @@
+{
+  "retrieved": "2026-09-17",
+  "official_updated": "2026-07-03",
+  "period": [
+    1973,
+    2024
+  ],
+  "vegetables": [
+    "ばれいしょ",
+    "キャベツ",
+    "たまねぎ",
+    "だいこん",
+    "はくさい",
+    "トマト",
+    "レタス",
+    "にんじん",
+    "きゅうり",
+    "ねぎ",
+    "なす",
+    "ほうれんそう",
+    "ブロッコリー",
+    "ピーマン",
+    "さといも"
+  ],
+  "sources": [
+    {
+      "name": "全国・根菜類（1973〜2024年）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0",
+      "file": "roots.xls",
+      "sha256": "035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d",
+      "updated": "2026-07-03"
+    },
+    {
+      "name": "全国・葉茎菜類（1973〜2024年）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470534&fileKind=0",
+      "file": "leaves.xls",
+      "sha256": "a18a891c2eb97e7b294b515bea23868f3d34c70abd0760e541a6c5425076fa6b",
+      "updated": "2026-07-03"
+    },
+    {
+      "name": "全国・果菜類（1973〜2024年）",
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0",
+      "file": "fruits.xls",
+      "sha256": "dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b",
+      "updated": "2026-07-03"
+    }
+  ],
+  "scope": "全国・品目別年間計・収穫量（t）",
+  "notes": [
+    "15品目は2026年9月時点の指定野菜に対応。過去の指定状況を示すものではない。",
+    "ブロッコリーは1989年にカリフラワーから分離。1973〜1988年は未掲載で、0ではない。",
+    "主産県調査年の全国値には農林水産省による推計を含む。",
+    "季節別区分を加算せず、品目の年間計を直接使用。トマトはミニ・加工用を含み、ばれいしょは春植え・秋植えを含む。",
+    "2025年産は一部品目の公表のみのため、全品目共通の2024年産まで収録。"
+  ]
+}

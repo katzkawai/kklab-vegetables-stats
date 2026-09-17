@@ -1,0 +1,9 @@
+node_modules/
+app/dist/
+app/.data-app-offline/
+app/.data-app-cache/
+app/.openai/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

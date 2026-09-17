@@ -1,0 +1,7202 @@
+{
+  "id": "dashboard:bf8489ad-045c-4eb4-ac6b-40e6ddadfccf",
+  "surface": "dashboard",
+  "title": "主要野菜の収穫量",
+  "generatedAt": "2026-09-17T02:27:35.550501+00:00",
+  "status": "reviewed",
+  "buildStatus": "complete",
+  "filters": [
+    {
+      "id": "vegetable",
+      "label": "野菜",
+      "field": "vegetable",
+      "multiple": true,
+      "defaultValue": [
+        "ばれいしょ",
+        "キャベツ",
+        "たまねぎ",
+        "だいこん",
+        "トマト",
+        "ブロッコリー"
+      ]
+    }
+  ],
+  "queries": {
+    "harvest": {
+      "rows": [
+        {
+          "year": 1973,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3413000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1386000,
+          "source_file": "leaves.xls",
+          "source_cell": "R8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 993900,
+          "source_file": "leaves.xls",
+          "source_cell": "DG8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2681000,
+          "source_file": "roots.xls",
+          "source_cell": "C8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1779000,
+          "source_file": "leaves.xls",
+          "source_cell": "C8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 865000,
+          "source_file": "fruits.xls",
+          "source_cell": "X8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 225900,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 477500,
+          "source_file": "roots.xls",
+          "source_cell": "R8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1001000,
+          "source_file": "fruits.xls",
+          "source_cell": "C8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 566300,
+          "source_file": "leaves.xls",
+          "source_cell": "CO8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 713700,
+          "source_file": "fruits.xls",
+          "source_cell": "O8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 343700,
+          "source_file": "leaves.xls",
+          "source_cell": "AG8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN8",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1973,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 144000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1973,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 384600,
+          "source_file": "roots.xls",
+          "source_cell": "AS8",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2942000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1433000,
+          "source_file": "leaves.xls",
+          "source_cell": "R9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1031000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2724000,
+          "source_file": "roots.xls",
+          "source_cell": "C9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1712000,
+          "source_file": "leaves.xls",
+          "source_cell": "C9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 821500,
+          "source_file": "fruits.xls",
+          "source_cell": "X9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 246100,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 513800,
+          "source_file": "roots.xls",
+          "source_cell": "R9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 962500,
+          "source_file": "fruits.xls",
+          "source_cell": "C9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 554500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 662500,
+          "source_file": "fruits.xls",
+          "source_cell": "O9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 334900,
+          "source_file": "leaves.xls",
+          "source_cell": "AG9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN9",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1974,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 139500,
+          "source_file": "fruits.xls",
+          "source_cell": "AV9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1974,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 430300,
+          "source_file": "roots.xls",
+          "source_cell": "AS9",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3261000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1423000,
+          "source_file": "leaves.xls",
+          "source_cell": "R10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1032000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2545000,
+          "source_file": "roots.xls",
+          "source_cell": "C10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1607000,
+          "source_file": "leaves.xls",
+          "source_cell": "C10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 1024000,
+          "source_file": "fruits.xls",
+          "source_cell": "X10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 258400,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 495200,
+          "source_file": "roots.xls",
+          "source_cell": "R10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1023000,
+          "source_file": "fruits.xls",
+          "source_cell": "C10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 554600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 668400,
+          "source_file": "fruits.xls",
+          "source_cell": "O10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 345900,
+          "source_file": "leaves.xls",
+          "source_cell": "AG10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN10",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1975,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 146800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1975,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 370200,
+          "source_file": "roots.xls",
+          "source_cell": "AS10",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3742000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1468000,
+          "source_file": "leaves.xls",
+          "source_cell": "R11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1123000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2671000,
+          "source_file": "roots.xls",
+          "source_cell": "C11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1668000,
+          "source_file": "leaves.xls",
+          "source_cell": "C11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 900200,
+          "source_file": "fruits.xls",
+          "source_cell": "X11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 281800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 542100,
+          "source_file": "roots.xls",
+          "source_cell": "R11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 996400,
+          "source_file": "fruits.xls",
+          "source_cell": "C11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 537100,
+          "source_file": "leaves.xls",
+          "source_cell": "CO11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 623600,
+          "source_file": "fruits.xls",
+          "source_cell": "O11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 331300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN11",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1976,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 149100,
+          "source_file": "fruits.xls",
+          "source_cell": "AV11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1976,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 425500,
+          "source_file": "roots.xls",
+          "source_cell": "AS11",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3520000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1532000,
+          "source_file": "leaves.xls",
+          "source_cell": "R12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1121000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2759000,
+          "source_file": "roots.xls",
+          "source_cell": "C12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1743000,
+          "source_file": "leaves.xls",
+          "source_cell": "C12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 974200,
+          "source_file": "fruits.xls",
+          "source_cell": "X12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 322800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 584900,
+          "source_file": "roots.xls",
+          "source_cell": "R12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1068000,
+          "source_file": "fruits.xls",
+          "source_cell": "C12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 554100,
+          "source_file": "leaves.xls",
+          "source_cell": "CO12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 658000,
+          "source_file": "fruits.xls",
+          "source_cell": "O12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 351700,
+          "source_file": "leaves.xls",
+          "source_cell": "AG12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN12",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1977,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 166400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1977,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 430200,
+          "source_file": "roots.xls",
+          "source_cell": "AS12",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3316000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1505000,
+          "source_file": "leaves.xls",
+          "source_cell": "R13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1114000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2705000,
+          "source_file": "roots.xls",
+          "source_cell": "C13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1731000,
+          "source_file": "leaves.xls",
+          "source_cell": "C13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 992500,
+          "source_file": "fruits.xls",
+          "source_cell": "X13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 337500,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 545900,
+          "source_file": "roots.xls",
+          "source_cell": "R13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1065000,
+          "source_file": "fruits.xls",
+          "source_cell": "C13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 564500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 662600,
+          "source_file": "fruits.xls",
+          "source_cell": "O13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 373000,
+          "source_file": "leaves.xls",
+          "source_cell": "AG13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN13",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1978,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 168700,
+          "source_file": "fruits.xls",
+          "source_cell": "AV13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1978,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 340600,
+          "source_file": "roots.xls",
+          "source_cell": "AS13",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3381000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1545000,
+          "source_file": "leaves.xls",
+          "source_cell": "R14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1254000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2575000,
+          "source_file": "roots.xls",
+          "source_cell": "C14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1411000,
+          "source_file": "leaves.xls",
+          "source_cell": "C14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 1038000,
+          "source_file": "fruits.xls",
+          "source_cell": "X14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 347600,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 586000,
+          "source_file": "roots.xls",
+          "source_cell": "R14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1089000,
+          "source_file": "fruits.xls",
+          "source_cell": "C14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 549600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 661600,
+          "source_file": "fruits.xls",
+          "source_cell": "O14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 376600,
+          "source_file": "leaves.xls",
+          "source_cell": "AG14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN14",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1979,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 173000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1979,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 446800,
+          "source_file": "roots.xls",
+          "source_cell": "AS14",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3421000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1545000,
+          "source_file": "leaves.xls",
+          "source_cell": "R15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1152000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2690000,
+          "source_file": "roots.xls",
+          "source_cell": "C15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1616000,
+          "source_file": "leaves.xls",
+          "source_cell": "C15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 1014000,
+          "source_file": "fruits.xls",
+          "source_cell": "X15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 381300,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 600100,
+          "source_file": "roots.xls",
+          "source_cell": "R15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1018000,
+          "source_file": "fruits.xls",
+          "source_cell": "C15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 538900,
+          "source_file": "leaves.xls",
+          "source_cell": "CO15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 618700,
+          "source_file": "fruits.xls",
+          "source_cell": "O15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 352100,
+          "source_file": "leaves.xls",
+          "source_cell": "AG15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN15",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1980,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 161400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1980,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 458500,
+          "source_file": "roots.xls",
+          "source_cell": "AS15",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3095000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1624000,
+          "source_file": "leaves.xls",
+          "source_cell": "R16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1042000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2687000,
+          "source_file": "roots.xls",
+          "source_cell": "C16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1637000,
+          "source_file": "leaves.xls",
+          "source_cell": "C16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 944600,
+          "source_file": "fruits.xls",
+          "source_cell": "X16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 411600,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 606300,
+          "source_file": "roots.xls",
+          "source_cell": "R16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1072000,
+          "source_file": "fruits.xls",
+          "source_cell": "C16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 568300,
+          "source_file": "leaves.xls",
+          "source_cell": "CO16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 650300,
+          "source_file": "fruits.xls",
+          "source_cell": "O16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 369200,
+          "source_file": "leaves.xls",
+          "source_cell": "AG16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN16",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1981,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 176200,
+          "source_file": "fruits.xls",
+          "source_cell": "AV16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1981,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 385800,
+          "source_file": "roots.xls",
+          "source_cell": "AS16",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3775000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1625000,
+          "source_file": "leaves.xls",
+          "source_cell": "R17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1257000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2709000,
+          "source_file": "roots.xls",
+          "source_cell": "C17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1638000,
+          "source_file": "leaves.xls",
+          "source_cell": "C17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 890500,
+          "source_file": "fruits.xls",
+          "source_cell": "X17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 435200,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 627100,
+          "source_file": "roots.xls",
+          "source_cell": "R17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1071000,
+          "source_file": "fruits.xls",
+          "source_cell": "C17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 520800,
+          "source_file": "leaves.xls",
+          "source_cell": "CO17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 608400,
+          "source_file": "fruits.xls",
+          "source_cell": "O17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 380300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN17",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1982,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 174700,
+          "source_file": "fruits.xls",
+          "source_cell": "AV17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1982,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 400100,
+          "source_file": "roots.xls",
+          "source_cell": "AS17",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3566000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1568000,
+          "source_file": "leaves.xls",
+          "source_cell": "R18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1170000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2548000,
+          "source_file": "roots.xls",
+          "source_cell": "C18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1507000,
+          "source_file": "leaves.xls",
+          "source_cell": "C18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 790800,
+          "source_file": "fruits.xls",
+          "source_cell": "X18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 434200,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 628600,
+          "source_file": "roots.xls",
+          "source_cell": "R18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1048000,
+          "source_file": "fruits.xls",
+          "source_cell": "C18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 548500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 629400,
+          "source_file": "fruits.xls",
+          "source_cell": "O18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 381400,
+          "source_file": "leaves.xls",
+          "source_cell": "AG18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN18",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1983,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 168200,
+          "source_file": "fruits.xls",
+          "source_cell": "AV18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1983,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 393200,
+          "source_file": "roots.xls",
+          "source_cell": "AS18",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3707000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1614000,
+          "source_file": "leaves.xls",
+          "source_cell": "R19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1099000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2631000,
+          "source_file": "roots.xls",
+          "source_cell": "C19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1549000,
+          "source_file": "leaves.xls",
+          "source_cell": "C19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 804200,
+          "source_file": "fruits.xls",
+          "source_cell": "X19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 477500,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 643000,
+          "source_file": "roots.xls",
+          "source_cell": "R19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1070000,
+          "source_file": "fruits.xls",
+          "source_cell": "C19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 562600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 636600,
+          "source_file": "fruits.xls",
+          "source_cell": "O19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 366400,
+          "source_file": "leaves.xls",
+          "source_cell": "AG19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN19",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1984,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 180300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1984,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 347100,
+          "source_file": "roots.xls",
+          "source_cell": "AS19",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3727000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1589000,
+          "source_file": "leaves.xls",
+          "source_cell": "R20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1326000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2544000,
+          "source_file": "roots.xls",
+          "source_cell": "C20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1478000,
+          "source_file": "leaves.xls",
+          "source_cell": "C20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 802400,
+          "source_file": "fruits.xls",
+          "source_cell": "X20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 459000,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 662600,
+          "source_file": "roots.xls",
+          "source_cell": "R20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1033000,
+          "source_file": "fruits.xls",
+          "source_cell": "C20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 552600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 598500,
+          "source_file": "fruits.xls",
+          "source_cell": "O20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 382500,
+          "source_file": "leaves.xls",
+          "source_cell": "AG20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN20",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1985,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 171600,
+          "source_file": "fruits.xls",
+          "source_cell": "AV20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1985,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 375100,
+          "source_file": "roots.xls",
+          "source_cell": "AS20",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 4073000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1667000,
+          "source_file": "leaves.xls",
+          "source_cell": "R21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1252000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2655000,
+          "source_file": "roots.xls",
+          "source_cell": "C21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1513000,
+          "source_file": "leaves.xls",
+          "source_cell": "C21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 816200,
+          "source_file": "fruits.xls",
+          "source_cell": "X21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 500500,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 670800,
+          "source_file": "roots.xls",
+          "source_cell": "R21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1040000,
+          "source_file": "fruits.xls",
+          "source_cell": "C21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 573000,
+          "source_file": "leaves.xls",
+          "source_cell": "CO21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 593700,
+          "source_file": "fruits.xls",
+          "source_cell": "O21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 385500,
+          "source_file": "leaves.xls",
+          "source_cell": "AG21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN21",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1986,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 177800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1986,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 384900,
+          "source_file": "roots.xls",
+          "source_cell": "AS21",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3955000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1631000,
+          "source_file": "leaves.xls",
+          "source_cell": "R22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1307000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2534000,
+          "source_file": "roots.xls",
+          "source_cell": "C22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1432000,
+          "source_file": "leaves.xls",
+          "source_cell": "C22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 837000,
+          "source_file": "fruits.xls",
+          "source_cell": "X22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 496800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 669300,
+          "source_file": "roots.xls",
+          "source_cell": "R22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 1026000,
+          "source_file": "fruits.xls",
+          "source_cell": "C22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 563500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 607200,
+          "source_file": "fruits.xls",
+          "source_cell": "O22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 400100,
+          "source_file": "leaves.xls",
+          "source_cell": "AG22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN22",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1987,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 172200,
+          "source_file": "fruits.xls",
+          "source_cell": "AV22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1987,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 391500,
+          "source_file": "roots.xls",
+          "source_cell": "AS22",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3763000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1573000,
+          "source_file": "leaves.xls",
+          "source_cell": "R23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1251000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2457000,
+          "source_file": "roots.xls",
+          "source_cell": "C23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1302000,
+          "source_file": "leaves.xls",
+          "source_cell": "C23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 775500,
+          "source_file": "fruits.xls",
+          "source_cell": "X23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 495400,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 678600,
+          "source_file": "roots.xls",
+          "source_cell": "R23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 975300,
+          "source_file": "fruits.xls",
+          "source_cell": "C23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 522400,
+          "source_file": "leaves.xls",
+          "source_cell": "CO23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 564200,
+          "source_file": "fruits.xls",
+          "source_cell": "O23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 396000,
+          "source_file": "leaves.xls",
+          "source_cell": "AG23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": null,
+          "source_file": "leaves.xls",
+          "source_cell": "BN23",
+          "source_symbol": "…"
+        },
+        {
+          "year": 1988,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 170400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1988,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 397300,
+          "source_file": "roots.xls",
+          "source_cell": "AS23",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3587000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1623000,
+          "source_file": "leaves.xls",
+          "source_cell": "R24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1269000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2449000,
+          "source_file": "roots.xls",
+          "source_cell": "C24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1334000,
+          "source_file": "leaves.xls",
+          "source_cell": "C24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 773100,
+          "source_file": "fruits.xls",
+          "source_cell": "X24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 520900,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 685200,
+          "source_file": "roots.xls",
+          "source_cell": "R24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 975000,
+          "source_file": "fruits.xls",
+          "source_cell": "C24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 541900,
+          "source_file": "leaves.xls",
+          "source_cell": "CO24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 567400,
+          "source_file": "fruits.xls",
+          "source_cell": "O24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 378000,
+          "source_file": "leaves.xls",
+          "source_cell": "AG24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 88800,
+          "source_file": "leaves.xls",
+          "source_cell": "BN24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 182400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1989,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 363600,
+          "source_file": "roots.xls",
+          "source_cell": "AS24",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3552000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1544000,
+          "source_file": "leaves.xls",
+          "source_cell": "R25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1317000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2336000,
+          "source_file": "roots.xls",
+          "source_cell": "C25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1220000,
+          "source_file": "leaves.xls",
+          "source_cell": "C25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 767100,
+          "source_file": "fruits.xls",
+          "source_cell": "X25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 517600,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 654600,
+          "source_file": "roots.xls",
+          "source_cell": "R25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 931100,
+          "source_file": "fruits.xls",
+          "source_cell": "C25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 557700,
+          "source_file": "leaves.xls",
+          "source_cell": "CO25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 554400,
+          "source_file": "fruits.xls",
+          "source_cell": "O25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 384100,
+          "source_file": "leaves.xls",
+          "source_cell": "AG25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 89100,
+          "source_file": "leaves.xls",
+          "source_cell": "BN25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 171300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1990,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 315300,
+          "source_file": "roots.xls",
+          "source_cell": "AS25",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3609000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1569000,
+          "source_file": "leaves.xls",
+          "source_cell": "R26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1307000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2317000,
+          "source_file": "roots.xls",
+          "source_cell": "C26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1154000,
+          "source_file": "leaves.xls",
+          "source_cell": "C26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 746100,
+          "source_file": "fruits.xls",
+          "source_cell": "X26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 520200,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 660200,
+          "source_file": "roots.xls",
+          "source_cell": "R26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 889100,
+          "source_file": "fruits.xls",
+          "source_cell": "C26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 516700,
+          "source_file": "leaves.xls",
+          "source_cell": "CO26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 514000,
+          "source_file": "fruits.xls",
+          "source_cell": "O26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 373700,
+          "source_file": "leaves.xls",
+          "source_cell": "AG26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 89800,
+          "source_file": "leaves.xls",
+          "source_cell": "BN26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 155700,
+          "source_file": "fruits.xls",
+          "source_cell": "AV26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1991,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 353400,
+          "source_file": "roots.xls",
+          "source_cell": "AS26",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3494000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1614000,
+          "source_file": "leaves.xls",
+          "source_cell": "R27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1397000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2346000,
+          "source_file": "roots.xls",
+          "source_cell": "C27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1205000,
+          "source_file": "leaves.xls",
+          "source_cell": "C27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 771700,
+          "source_file": "fruits.xls",
+          "source_cell": "X27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 535800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 690300,
+          "source_file": "roots.xls",
+          "source_cell": "R27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 898900,
+          "source_file": "fruits.xls",
+          "source_cell": "C27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 565000,
+          "source_file": "leaves.xls",
+          "source_cell": "CO27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 519400,
+          "source_file": "fruits.xls",
+          "source_cell": "O27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 364900,
+          "source_file": "leaves.xls",
+          "source_cell": "AG27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 101100,
+          "source_file": "leaves.xls",
+          "source_cell": "BN27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 166500,
+          "source_file": "fruits.xls",
+          "source_cell": "AV27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1992,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 304600,
+          "source_file": "roots.xls",
+          "source_cell": "AS27",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3390000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1513000,
+          "source_file": "leaves.xls",
+          "source_cell": "R28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1367000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2224000,
+          "source_file": "roots.xls",
+          "source_cell": "C28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1185000,
+          "source_file": "leaves.xls",
+          "source_cell": "C28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 737500,
+          "source_file": "fruits.xls",
+          "source_cell": "X28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 493000,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 709200,
+          "source_file": "roots.xls",
+          "source_cell": "R28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 835500,
+          "source_file": "fruits.xls",
+          "source_cell": "C28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 505600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 448800,
+          "source_file": "fruits.xls",
+          "source_cell": "O28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 378400,
+          "source_file": "leaves.xls",
+          "source_cell": "AG28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 92900,
+          "source_file": "leaves.xls",
+          "source_cell": "BN28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 156100,
+          "source_file": "fruits.xls",
+          "source_cell": "AV28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1993,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 299000,
+          "source_file": "roots.xls",
+          "source_cell": "AS28",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3377000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1511000,
+          "source_file": "leaves.xls",
+          "source_cell": "R29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1109000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2154000,
+          "source_file": "roots.xls",
+          "source_cell": "C29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1118000,
+          "source_file": "leaves.xls",
+          "source_cell": "C29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 757700,
+          "source_file": "fruits.xls",
+          "source_cell": "X29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 528000,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 658300,
+          "source_file": "roots.xls",
+          "source_cell": "R29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 865500,
+          "source_file": "fruits.xls",
+          "source_cell": "C29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 524600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 510100,
+          "source_file": "fruits.xls",
+          "source_cell": "O29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 367300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 84100,
+          "source_file": "leaves.xls",
+          "source_cell": "BN29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 164800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1994,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 238400,
+          "source_file": "roots.xls",
+          "source_cell": "AS29",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3365000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1544000,
+          "source_file": "leaves.xls",
+          "source_cell": "R30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1278000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2148000,
+          "source_file": "roots.xls",
+          "source_cell": "C30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1163000,
+          "source_file": "leaves.xls",
+          "source_cell": "C30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 753100,
+          "source_file": "fruits.xls",
+          "source_cell": "X30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 537300,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 724700,
+          "source_file": "roots.xls",
+          "source_cell": "R30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 826500,
+          "source_file": "fruits.xls",
+          "source_cell": "C30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 533500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 478400,
+          "source_file": "fruits.xls",
+          "source_cell": "O30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 360400,
+          "source_file": "leaves.xls",
+          "source_cell": "AG30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 78300,
+          "source_file": "leaves.xls",
+          "source_cell": "BN30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 169300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1995,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 254300,
+          "source_file": "roots.xls",
+          "source_cell": "AS30",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3087000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1539000,
+          "source_file": "leaves.xls",
+          "source_cell": "R31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1262000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2132000,
+          "source_file": "roots.xls",
+          "source_cell": "C31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1162000,
+          "source_file": "leaves.xls",
+          "source_cell": "C31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 796300,
+          "source_file": "fruits.xls",
+          "source_cell": "X31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 548400,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 736200,
+          "source_file": "roots.xls",
+          "source_cell": "R31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 823000,
+          "source_file": "fruits.xls",
+          "source_cell": "C31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 546800,
+          "source_file": "leaves.xls",
+          "source_cell": "CO31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 481000,
+          "source_file": "fruits.xls",
+          "source_cell": "O31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 358600,
+          "source_file": "leaves.xls",
+          "source_cell": "AG31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 85100,
+          "source_file": "leaves.xls",
+          "source_cell": "BN31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 166300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1996,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 254100,
+          "source_file": "roots.xls",
+          "source_cell": "AS31",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3395000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1502000,
+          "source_file": "leaves.xls",
+          "source_cell": "R32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1257000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 2020000,
+          "source_file": "roots.xls",
+          "source_cell": "C32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1135000,
+          "source_file": "leaves.xls",
+          "source_cell": "C32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 780400,
+          "source_file": "fruits.xls",
+          "source_cell": "X32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 532700,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 716100,
+          "source_file": "roots.xls",
+          "source_cell": "R32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 797600,
+          "source_file": "fruits.xls",
+          "source_cell": "C32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 549200,
+          "source_file": "leaves.xls",
+          "source_cell": "CO32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 475000,
+          "source_file": "fruits.xls",
+          "source_cell": "O32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 331000,
+          "source_file": "leaves.xls",
+          "source_cell": "AG32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 84500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 168600,
+          "source_file": "fruits.xls",
+          "source_cell": "AV32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1997,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 270000,
+          "source_file": "roots.xls",
+          "source_cell": "AS32",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3073000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1407000,
+          "source_file": "leaves.xls",
+          "source_cell": "R33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1355000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1902000,
+          "source_file": "roots.xls",
+          "source_cell": "C33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 989900,
+          "source_file": "leaves.xls",
+          "source_cell": "C33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 763600,
+          "source_file": "fruits.xls",
+          "source_cell": "X33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 506300,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 648100,
+          "source_file": "roots.xls",
+          "source_cell": "R33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 746300,
+          "source_file": "fruits.xls",
+          "source_cell": "C33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 508500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 458800,
+          "source_file": "fruits.xls",
+          "source_cell": "O33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 322300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 73500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 160000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1998,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 258400,
+          "source_file": "roots.xls",
+          "source_cell": "AS33",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2963000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1476000,
+          "source_file": "leaves.xls",
+          "source_cell": "R34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1205000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1948000,
+          "source_file": "roots.xls",
+          "source_cell": "C34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1079000,
+          "source_file": "leaves.xls",
+          "source_cell": "C34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 769000,
+          "source_file": "fruits.xls",
+          "source_cell": "X34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 540500,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 676700,
+          "source_file": "roots.xls",
+          "source_cell": "R34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 766000,
+          "source_file": "fruits.xls",
+          "source_cell": "C34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 532400,
+          "source_file": "leaves.xls",
+          "source_cell": "CO34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 473300,
+          "source_file": "fruits.xls",
+          "source_cell": "O34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 329000,
+          "source_file": "leaves.xls",
+          "source_cell": "AG34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 83600,
+          "source_file": "leaves.xls",
+          "source_cell": "BN34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 165100,
+          "source_file": "fruits.xls",
+          "source_cell": "AV34",
+          "source_symbol": ""
+        },
+        {
+          "year": 1999,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 247700,
+          "source_file": "roots.xls",
+          "source_cell": "AS34",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2898000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1449000,
+          "source_file": "leaves.xls",
+          "source_cell": "R35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1247000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1876000,
+          "source_file": "roots.xls",
+          "source_cell": "C35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1036000,
+          "source_file": "leaves.xls",
+          "source_cell": "C35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 806300,
+          "source_file": "fruits.xls",
+          "source_cell": "X35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 537200,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 681700,
+          "source_file": "roots.xls",
+          "source_cell": "R35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 766500,
+          "source_file": "fruits.xls",
+          "source_cell": "C35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 536700,
+          "source_file": "leaves.xls",
+          "source_cell": "CO35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 476900,
+          "source_file": "fruits.xls",
+          "source_cell": "O35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 316400,
+          "source_file": "leaves.xls",
+          "source_cell": "AG35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 82900,
+          "source_file": "leaves.xls",
+          "source_cell": "BN35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 171400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2000,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 230500,
+          "source_file": "roots.xls",
+          "source_cell": "AS35",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2959000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1435000,
+          "source_file": "leaves.xls",
+          "source_cell": "R36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1259000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1868000,
+          "source_file": "roots.xls",
+          "source_cell": "C36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1038000,
+          "source_file": "leaves.xls",
+          "source_cell": "C36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 797800,
+          "source_file": "fruits.xls",
+          "source_cell": "X36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 554200,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 691300,
+          "source_file": "roots.xls",
+          "source_cell": "R36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 735500,
+          "source_file": "fruits.xls",
+          "source_cell": "C36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 526800,
+          "source_file": "leaves.xls",
+          "source_cell": "CO36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 448000,
+          "source_file": "fruits.xls",
+          "source_cell": "O36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 319300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 89200,
+          "source_file": "leaves.xls",
+          "source_cell": "BN36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 159400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2001,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 217800,
+          "source_file": "roots.xls",
+          "source_cell": "AS36",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 3074000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1392000,
+          "source_file": "leaves.xls",
+          "source_cell": "R37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1274000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1780000,
+          "source_file": "roots.xls",
+          "source_cell": "C37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 1005000,
+          "source_file": "leaves.xls",
+          "source_cell": "C37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 784900,
+          "source_file": "fruits.xls",
+          "source_cell": "X37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 561600,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 643700,
+          "source_file": "roots.xls",
+          "source_cell": "R37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 729200,
+          "source_file": "fruits.xls",
+          "source_cell": "C37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 518700,
+          "source_file": "leaves.xls",
+          "source_cell": "CO37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 432300,
+          "source_file": "fruits.xls",
+          "source_cell": "O37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 311800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 94200,
+          "source_file": "leaves.xls",
+          "source_cell": "BN37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 161000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2002,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 208900,
+          "source_file": "roots.xls",
+          "source_cell": "AS37",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2939000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1376000,
+          "source_file": "leaves.xls",
+          "source_cell": "R38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1172000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1752000,
+          "source_file": "roots.xls",
+          "source_cell": "C38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 964500,
+          "source_file": "leaves.xls",
+          "source_cell": "C38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 759900,
+          "source_file": "fruits.xls",
+          "source_cell": "X38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 548600,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 658900,
+          "source_file": "roots.xls",
+          "source_cell": "R38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 684100,
+          "source_file": "fruits.xls",
+          "source_cell": "C38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 514600,
+          "source_file": "leaves.xls",
+          "source_cell": "CO38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 395800,
+          "source_file": "fruits.xls",
+          "source_cell": "O38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 311800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 107500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 151500,
+          "source_file": "fruits.xls",
+          "source_cell": "AV38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2003,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 209400,
+          "source_file": "roots.xls",
+          "source_cell": "AS38",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2888000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1279000,
+          "source_file": "leaves.xls",
+          "source_cell": "R39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1128000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1620000,
+          "source_file": "roots.xls",
+          "source_cell": "C39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 887600,
+          "source_file": "leaves.xls",
+          "source_cell": "C39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 754900,
+          "source_file": "fruits.xls",
+          "source_cell": "X39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 509300,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 615700,
+          "source_file": "roots.xls",
+          "source_cell": "R39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 673000,
+          "source_file": "fruits.xls",
+          "source_cell": "C39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 485500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 390200,
+          "source_file": "fruits.xls",
+          "source_cell": "O39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 288700,
+          "source_file": "leaves.xls",
+          "source_cell": "AG39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 93500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 153400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2004,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 184800,
+          "source_file": "roots.xls",
+          "source_cell": "AS39",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2752000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1364000,
+          "source_file": "leaves.xls",
+          "source_cell": "R40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1087000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1627000,
+          "source_file": "roots.xls",
+          "source_cell": "C40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 924300,
+          "source_file": "leaves.xls",
+          "source_cell": "C40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 759200,
+          "source_file": "fruits.xls",
+          "source_cell": "X40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 551700,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 614900,
+          "source_file": "roots.xls",
+          "source_cell": "R40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 674600,
+          "source_file": "fruits.xls",
+          "source_cell": "C40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 493500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 395700,
+          "source_file": "fruits.xls",
+          "source_cell": "O40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 298200,
+          "source_file": "leaves.xls",
+          "source_cell": "AG40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 105200,
+          "source_file": "leaves.xls",
+          "source_cell": "BN40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 153800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2005,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 184500,
+          "source_file": "roots.xls",
+          "source_cell": "AS40",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2635000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1372000,
+          "source_file": "leaves.xls",
+          "source_cell": "R41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1161000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1650000,
+          "source_file": "roots.xls",
+          "source_cell": "C41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 942300,
+          "source_file": "leaves.xls",
+          "source_cell": "C41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 728300,
+          "source_file": "fruits.xls",
+          "source_cell": "X41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 545400,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 624100,
+          "source_file": "roots.xls",
+          "source_cell": "R41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 628500,
+          "source_file": "fruits.xls",
+          "source_cell": "C41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 491900,
+          "source_file": "leaves.xls",
+          "source_cell": "CO41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 371900,
+          "source_file": "fruits.xls",
+          "source_cell": "O41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 298800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 122000,
+          "source_file": "leaves.xls",
+          "source_cell": "BN41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 146800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2006,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 174700,
+          "source_file": "roots.xls",
+          "source_cell": "AS41",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2873000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1359000,
+          "source_file": "leaves.xls",
+          "source_cell": "R42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1265000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1626000,
+          "source_file": "roots.xls",
+          "source_cell": "C42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 917500,
+          "source_file": "leaves.xls",
+          "source_cell": "C42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 749200,
+          "source_file": "fruits.xls",
+          "source_cell": "X42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 543700,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 665900,
+          "source_file": "roots.xls",
+          "source_cell": "R42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 641000,
+          "source_file": "fruits.xls",
+          "source_cell": "C42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 494800,
+          "source_file": "leaves.xls",
+          "source_cell": "CO42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 371800,
+          "source_file": "fruits.xls",
+          "source_cell": "O42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 298200,
+          "source_file": "leaves.xls",
+          "source_cell": "AG42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 125000,
+          "source_file": "leaves.xls",
+          "source_cell": "BN42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 149600,
+          "source_file": "fruits.xls",
+          "source_cell": "AV42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2007,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 173200,
+          "source_file": "roots.xls",
+          "source_cell": "AS42",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2743000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1389000,
+          "source_file": "leaves.xls",
+          "source_cell": "R43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1271000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1603000,
+          "source_file": "roots.xls",
+          "source_cell": "C43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 921400,
+          "source_file": "leaves.xls",
+          "source_cell": "C43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 732800,
+          "source_file": "fruits.xls",
+          "source_cell": "X43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 544300,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 656800,
+          "source_file": "roots.xls",
+          "source_cell": "R43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 627400,
+          "source_file": "fruits.xls",
+          "source_cell": "C43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 510200,
+          "source_file": "leaves.xls",
+          "source_cell": "CO43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 365900,
+          "source_file": "fruits.xls",
+          "source_cell": "O43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 292700,
+          "source_file": "leaves.xls",
+          "source_cell": "AG43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 136900,
+          "source_file": "leaves.xls",
+          "source_cell": "BN43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 150300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2008,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 179700,
+          "source_file": "roots.xls",
+          "source_cell": "AS43",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2459000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1385000,
+          "source_file": "leaves.xls",
+          "source_cell": "R44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1161000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1593000,
+          "source_file": "roots.xls",
+          "source_cell": "C44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 924100,
+          "source_file": "leaves.xls",
+          "source_cell": "C44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 717600,
+          "source_file": "fruits.xls",
+          "source_cell": "X44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 549800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 650100,
+          "source_file": "roots.xls",
+          "source_cell": "R44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 620200,
+          "source_file": "fruits.xls",
+          "source_cell": "C44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 508400,
+          "source_file": "leaves.xls",
+          "source_cell": "CO44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 349100,
+          "source_file": "fruits.xls",
+          "source_cell": "O44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 286300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 141100,
+          "source_file": "leaves.xls",
+          "source_cell": "BN44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 142700,
+          "source_file": "fruits.xls",
+          "source_cell": "AV44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2009,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 182400,
+          "source_file": "roots.xls",
+          "source_cell": "AS44",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2290000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1360000,
+          "source_file": "leaves.xls",
+          "source_cell": "R45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1042000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1496000,
+          "source_file": "roots.xls",
+          "source_cell": "C45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 888700,
+          "source_file": "leaves.xls",
+          "source_cell": "C45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 690900,
+          "source_file": "fruits.xls",
+          "source_cell": "X45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 537900,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 595700,
+          "source_file": "roots.xls",
+          "source_cell": "R45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 587800,
+          "source_file": "fruits.xls",
+          "source_cell": "C45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 477500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 330100,
+          "source_file": "fruits.xls",
+          "source_cell": "O45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 269000,
+          "source_file": "leaves.xls",
+          "source_cell": "AG45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 129200,
+          "source_file": "leaves.xls",
+          "source_cell": "BN45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 137300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2010,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 167600,
+          "source_file": "roots.xls",
+          "source_cell": "AS45",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2387000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1375000,
+          "source_file": "leaves.xls",
+          "source_cell": "R46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1070000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1493000,
+          "source_file": "roots.xls",
+          "source_cell": "C46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 897400,
+          "source_file": "leaves.xls",
+          "source_cell": "C46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 703100,
+          "source_file": "fruits.xls",
+          "source_cell": "X46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 542400,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 617300,
+          "source_file": "roots.xls",
+          "source_cell": "R46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 584600,
+          "source_file": "fruits.xls",
+          "source_cell": "C46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 485100,
+          "source_file": "leaves.xls",
+          "source_cell": "CO46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 322400,
+          "source_file": "fruits.xls",
+          "source_cell": "O46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 263500,
+          "source_file": "leaves.xls",
+          "source_cell": "AG46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 130200,
+          "source_file": "leaves.xls",
+          "source_cell": "BN46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 141800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2011,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 171300,
+          "source_file": "roots.xls",
+          "source_cell": "AS46",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2500000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1443000,
+          "source_file": "leaves.xls",
+          "source_cell": "R47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1098000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1469000,
+          "source_file": "roots.xls",
+          "source_cell": "C47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 920700,
+          "source_file": "leaves.xls",
+          "source_cell": "C47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 722400,
+          "source_file": "fruits.xls",
+          "source_cell": "X47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 566100,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 613200,
+          "source_file": "roots.xls",
+          "source_cell": "R47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 586600,
+          "source_file": "fruits.xls",
+          "source_cell": "C47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 480900,
+          "source_file": "leaves.xls",
+          "source_cell": "CO47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 327400,
+          "source_file": "fruits.xls",
+          "source_cell": "O47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 263500,
+          "source_file": "leaves.xls",
+          "source_cell": "AG47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 137500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 145000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2012,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 172500,
+          "source_file": "roots.xls",
+          "source_cell": "AS47",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2408000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1440000,
+          "source_file": "leaves.xls",
+          "source_cell": "R48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1068000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1457000,
+          "source_file": "roots.xls",
+          "source_cell": "C48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 906300,
+          "source_file": "leaves.xls",
+          "source_cell": "C48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 747500,
+          "source_file": "fruits.xls",
+          "source_cell": "X48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 579000,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 603900,
+          "source_file": "roots.xls",
+          "source_cell": "R48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 574400,
+          "source_file": "fruits.xls",
+          "source_cell": "C48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 477500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 321200,
+          "source_file": "fruits.xls",
+          "source_cell": "O48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 250300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 137000,
+          "source_file": "leaves.xls",
+          "source_cell": "BN48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 145300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2013,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 162100,
+          "source_file": "roots.xls",
+          "source_cell": "AS48",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2456000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1480000,
+          "source_file": "leaves.xls",
+          "source_cell": "R49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1169000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1452000,
+          "source_file": "roots.xls",
+          "source_cell": "C49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 914400,
+          "source_file": "leaves.xls",
+          "source_cell": "C49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 739900,
+          "source_file": "fruits.xls",
+          "source_cell": "X49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 577800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 633200,
+          "source_file": "roots.xls",
+          "source_cell": "R49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 548800,
+          "source_file": "fruits.xls",
+          "source_cell": "C49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 483900,
+          "source_file": "leaves.xls",
+          "source_cell": "CO49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 322700,
+          "source_file": "fruits.xls",
+          "source_cell": "O49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 257400,
+          "source_file": "leaves.xls",
+          "source_cell": "AG49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 145600,
+          "source_file": "leaves.xls",
+          "source_cell": "BN49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 145300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2014,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 165700,
+          "source_file": "roots.xls",
+          "source_cell": "AS49",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2406000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1469000,
+          "source_file": "leaves.xls",
+          "source_cell": "R50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1265000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1434000,
+          "source_file": "roots.xls",
+          "source_cell": "C50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 894600,
+          "source_file": "leaves.xls",
+          "source_cell": "C50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 727000,
+          "source_file": "fruits.xls",
+          "source_cell": "X50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 568000,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 633100,
+          "source_file": "roots.xls",
+          "source_cell": "R50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 549900,
+          "source_file": "fruits.xls",
+          "source_cell": "C50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 474500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 308900,
+          "source_file": "fruits.xls",
+          "source_cell": "O50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 250800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 150900,
+          "source_file": "leaves.xls",
+          "source_cell": "BN50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 140400,
+          "source_file": "fruits.xls",
+          "source_cell": "AV50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2015,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 153300,
+          "source_file": "roots.xls",
+          "source_cell": "AS50",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2199000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1446000,
+          "source_file": "leaves.xls",
+          "source_cell": "R51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1243000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1362000,
+          "source_file": "roots.xls",
+          "source_cell": "C51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 888700,
+          "source_file": "leaves.xls",
+          "source_cell": "C51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 743200,
+          "source_file": "fruits.xls",
+          "source_cell": "X51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 585700,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 566800,
+          "source_file": "roots.xls",
+          "source_cell": "R51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 550300,
+          "source_file": "fruits.xls",
+          "source_cell": "C51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 464800,
+          "source_file": "leaves.xls",
+          "source_cell": "CO51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 306000,
+          "source_file": "fruits.xls",
+          "source_cell": "O51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 247300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 142300,
+          "source_file": "leaves.xls",
+          "source_cell": "BN51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 144800,
+          "source_file": "fruits.xls",
+          "source_cell": "AV51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2016,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 154600,
+          "source_file": "roots.xls",
+          "source_cell": "AS51",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2395000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1428000,
+          "source_file": "leaves.xls",
+          "source_cell": "R52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1228000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1325000,
+          "source_file": "roots.xls",
+          "source_cell": "C52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 880900,
+          "source_file": "leaves.xls",
+          "source_cell": "C52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 737200,
+          "source_file": "fruits.xls",
+          "source_cell": "X52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 583200,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 596500,
+          "source_file": "roots.xls",
+          "source_cell": "R52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 559500,
+          "source_file": "fruits.xls",
+          "source_cell": "C52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 458800,
+          "source_file": "leaves.xls",
+          "source_cell": "CO52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 307800,
+          "source_file": "fruits.xls",
+          "source_cell": "O52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 228100,
+          "source_file": "leaves.xls",
+          "source_cell": "AG52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 144600,
+          "source_file": "leaves.xls",
+          "source_cell": "BN52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 147000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2017,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 148600,
+          "source_file": "roots.xls",
+          "source_cell": "AS52",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2260000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1467000,
+          "source_file": "leaves.xls",
+          "source_cell": "R53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1155000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1328000,
+          "source_file": "roots.xls",
+          "source_cell": "C53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 889900,
+          "source_file": "leaves.xls",
+          "source_cell": "C53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 724200,
+          "source_file": "fruits.xls",
+          "source_cell": "X53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 585600,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 574700,
+          "source_file": "roots.xls",
+          "source_cell": "R53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 550000,
+          "source_file": "fruits.xls",
+          "source_cell": "C53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 452900,
+          "source_file": "leaves.xls",
+          "source_cell": "CO53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 300400,
+          "source_file": "fruits.xls",
+          "source_cell": "O53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 228300,
+          "source_file": "leaves.xls",
+          "source_cell": "AG53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 153800,
+          "source_file": "leaves.xls",
+          "source_cell": "BN53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 140300,
+          "source_file": "fruits.xls",
+          "source_cell": "AV53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2018,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 144800,
+          "source_file": "roots.xls",
+          "source_cell": "AS53",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2399000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1472000,
+          "source_file": "leaves.xls",
+          "source_cell": "R54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1334000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1300000,
+          "source_file": "roots.xls",
+          "source_cell": "C54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 874800,
+          "source_file": "leaves.xls",
+          "source_cell": "C54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 720600,
+          "source_file": "fruits.xls",
+          "source_cell": "X54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 578100,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 594900,
+          "source_file": "roots.xls",
+          "source_cell": "R54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 548100,
+          "source_file": "fruits.xls",
+          "source_cell": "C54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 465300,
+          "source_file": "leaves.xls",
+          "source_cell": "CO54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 301700,
+          "source_file": "fruits.xls",
+          "source_cell": "O54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 217800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 169500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 145700,
+          "source_file": "fruits.xls",
+          "source_cell": "AV54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2019,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 140400,
+          "source_file": "roots.xls",
+          "source_cell": "AS54",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2205000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1434000,
+          "source_file": "leaves.xls",
+          "source_cell": "R55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1357000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1254000,
+          "source_file": "roots.xls",
+          "source_cell": "C55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 892300,
+          "source_file": "leaves.xls",
+          "source_cell": "C55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 706000,
+          "source_file": "fruits.xls",
+          "source_cell": "X55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 563900,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 585900,
+          "source_file": "roots.xls",
+          "source_cell": "R55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 539200,
+          "source_file": "fruits.xls",
+          "source_cell": "C55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 441100,
+          "source_file": "leaves.xls",
+          "source_cell": "CO55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 297000,
+          "source_file": "fruits.xls",
+          "source_cell": "O55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 213900,
+          "source_file": "leaves.xls",
+          "source_cell": "AG55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 174500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 143100,
+          "source_file": "fruits.xls",
+          "source_cell": "AV55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2020,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 139500,
+          "source_file": "roots.xls",
+          "source_cell": "AS55",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2175000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1485000,
+          "source_file": "leaves.xls",
+          "source_cell": "R56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1096000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1251000,
+          "source_file": "roots.xls",
+          "source_cell": "C56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 899900,
+          "source_file": "leaves.xls",
+          "source_cell": "C56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 725200,
+          "source_file": "fruits.xls",
+          "source_cell": "X56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 546800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 635500,
+          "source_file": "roots.xls",
+          "source_cell": "R56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 551300,
+          "source_file": "fruits.xls",
+          "source_cell": "C56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 440400,
+          "source_file": "leaves.xls",
+          "source_cell": "CO56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 297700,
+          "source_file": "fruits.xls",
+          "source_cell": "O56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 210500,
+          "source_file": "leaves.xls",
+          "source_cell": "AG56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 171600,
+          "source_file": "leaves.xls",
+          "source_cell": "BN56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 148500,
+          "source_file": "fruits.xls",
+          "source_cell": "AV56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2021,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 142700,
+          "source_file": "roots.xls",
+          "source_cell": "AS56",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2283000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1458000,
+          "source_file": "leaves.xls",
+          "source_cell": "R57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1219000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1181000,
+          "source_file": "roots.xls",
+          "source_cell": "C57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 874600,
+          "source_file": "leaves.xls",
+          "source_cell": "C57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 707900,
+          "source_file": "fruits.xls",
+          "source_cell": "X57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 552800,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 582100,
+          "source_file": "roots.xls",
+          "source_cell": "R57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 548600,
+          "source_file": "fruits.xls",
+          "source_cell": "C57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 442500,
+          "source_file": "leaves.xls",
+          "source_cell": "CO57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 294600,
+          "source_file": "fruits.xls",
+          "source_cell": "O57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 209800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 172900,
+          "source_file": "leaves.xls",
+          "source_cell": "BN57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 150000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2022,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 138700,
+          "source_file": "roots.xls",
+          "source_cell": "AS57",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2364000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1434000,
+          "source_file": "leaves.xls",
+          "source_cell": "R58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1174000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1141000,
+          "source_file": "roots.xls",
+          "source_cell": "C58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 852100,
+          "source_file": "leaves.xls",
+          "source_cell": "C58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 681400,
+          "source_file": "fruits.xls",
+          "source_cell": "X58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 546100,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 567000,
+          "source_file": "roots.xls",
+          "source_cell": "R58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 530200,
+          "source_file": "fruits.xls",
+          "source_cell": "C58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 416300,
+          "source_file": "leaves.xls",
+          "source_cell": "CO58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 288800,
+          "source_file": "fruits.xls",
+          "source_cell": "O58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 206800,
+          "source_file": "leaves.xls",
+          "source_cell": "AG58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 171400,
+          "source_file": "leaves.xls",
+          "source_cell": "BN58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 144000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2023,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 126700,
+          "source_file": "roots.xls",
+          "source_cell": "AS58",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "ばれいしょ",
+          "group": "根菜類",
+          "harvest_t": 2295000,
+          "source_file": "roots.xls",
+          "source_cell": "AJ59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "キャベツ",
+          "group": "葉茎菜類",
+          "harvest_t": 1294000,
+          "source_file": "leaves.xls",
+          "source_cell": "R59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "たまねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 1126000,
+          "source_file": "leaves.xls",
+          "source_cell": "DG59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "だいこん",
+          "group": "根菜類",
+          "harvest_t": 1082000,
+          "source_file": "roots.xls",
+          "source_cell": "C59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "はくさい",
+          "group": "葉茎菜類",
+          "harvest_t": 827000,
+          "source_file": "leaves.xls",
+          "source_cell": "C59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "トマト",
+          "group": "果菜類",
+          "harvest_t": 663600,
+          "source_file": "fruits.xls",
+          "source_cell": "X59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "レタス",
+          "group": "葉茎菜類",
+          "harvest_t": 534300,
+          "source_file": "leaves.xls",
+          "source_cell": "BQ59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "にんじん",
+          "group": "根菜類",
+          "harvest_t": 530900,
+          "source_file": "roots.xls",
+          "source_cell": "R59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "きゅうり",
+          "group": "果菜類",
+          "harvest_t": 502900,
+          "source_file": "fruits.xls",
+          "source_cell": "C59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "ねぎ",
+          "group": "葉茎菜類",
+          "harvest_t": 399200,
+          "source_file": "leaves.xls",
+          "source_cell": "CO59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "なす",
+          "group": "果菜類",
+          "harvest_t": 280200,
+          "source_file": "fruits.xls",
+          "source_cell": "O59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "ほうれんそう",
+          "group": "葉茎菜類",
+          "harvest_t": 189900,
+          "source_file": "leaves.xls",
+          "source_cell": "AG59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "ブロッコリー",
+          "group": "葉茎菜類",
+          "harvest_t": 160500,
+          "source_file": "leaves.xls",
+          "source_cell": "BN59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "ピーマン",
+          "group": "果菜類",
+          "harvest_t": 143000,
+          "source_file": "fruits.xls",
+          "source_cell": "AV59",
+          "source_symbol": ""
+        },
+        {
+          "year": 2024,
+          "vegetable": "さといも",
+          "group": "根菜類",
+          "harvest_t": 118900,
+          "source_file": "roots.xls",
+          "source_cell": "AS59",
+          "source_symbol": ""
+        }
+      ],
+      "source": {
+        "label": "農林水産省「作物統計調査／野菜生産出荷統計」長期累年",
+        "provider": "農林水産省 / e-Stat",
+        "executedAt": "2026-09-17T02:27:35.550501+00:00",
+        "updatedAt": "2026-07-03",
+        "coverage": {
+          "startDate": "1973-01-01",
+          "endDate": "2024-12-31"
+        },
+        "grain": "全国 × 年産 × 品目",
+        "files": [
+          "roots.xls",
+          "leaves.xls",
+          "fruits.xls"
+        ],
+        "links": [
+          {
+            "label": "農林水産省：作況調査（野菜）",
+            "url": "https://www.maff.go.jp/j/tokei/kouhyou/sakumotu/sakkyou_yasai/"
+          },
+          {
+            "label": "e-Stat：長期累年統計表",
+            "url": "https://www.e-stat.go.jp/stat-search/files?layout=datalist&lid=000001486220&page=1"
+          },
+          {
+            "label": "全国・根菜類（1973〜2024年）",
+            "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0"
+          },
+          {
+            "label": "全国・葉茎菜類（1973〜2024年）",
+            "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470534&fileKind=0"
+          },
+          {
+            "label": "全国・果菜類（1973〜2024年）",
+            "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0"
+          }
+        ],
+        "filters": [
+          "全国",
+          "品目の年間計",
+          "収穫量（t）",
+          "15品目・1973〜2024年"
+        ],
+        "assumptions": [
+          "15品目は2026年9月時点の指定野菜に対応。過去の指定状況を示すものではない。",
+          "ブロッコリーは1989年にカリフラワーから分離。1973〜1988年は未掲載で、0ではない。",
+          "主産県調査年の全国値には農林水産省による推計を含む。",
+          "季節別区分を加算せず、品目の年間計を直接使用。トマトはミニ・加工用を含み、ばれいしょは春植え・秋植えを含む。",
+          "2025年産は一部品目の公表のみのため、全品目共通の2024年産まで収録。"
+        ],
+        "metricDefinitions": [
+          {
+            "label": "収穫量（t）",
+            "definition": "収穫物のうち生食用・加工用として流通できる基準に達するものの重量。出荷量とは異なる。"
+          },
+          {
+            "label": "収穫量（万t）",
+            "definition": "公表収穫量（t）を10,000で除した値。",
+            "formula": "harvest_t / 10000"
+          },
+          {
+            "label": "指数（開始年＝100）",
+            "definition": "選択した開始年の収穫量を100とする。同年が欠測の品目は算出しない。",
+            "formula": "harvest_t / baseline_harvest_t * 100"
+          },
+          {
+            "label": "期間増減率",
+            "definition": "選択終了年と開始年の収穫量を比較。基準年が欠測または0なら算出しない。",
+            "formula": "(end_harvest_t / start_harvest_t - 1) * 100"
+          }
+        ],
+        "evidenceFlow": [
+          {
+            "title": "公式ファイル取得",
+            "detail": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0 / SHA-256: 035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d"
+          },
+          {
+            "title": "公式ファイル取得",
+            "detail": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470534&fileKind=0 / SHA-256: a18a891c2eb97e7b294b515bea23868f3d34c70abd0760e541a6c5425076fa6b"
+          },
+          {
+            "title": "公式ファイル取得",
+            "detail": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0 / SHA-256: dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b"
+          },
+          {
+            "title": "抽出と検証",
+            "detail": "scripts/prepare_data.py：全国・年間計の収穫量列を抽出。単位t、780行のキー一意性、16件の未掲載を検証。"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "language": "python",
+          "code": "uv run scripts/prepare_data.py（リポジトリ内の元Excelから再生成）"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "retrieved": "2026-09-17",
+    "official_updated": "2026-07-03",
+    "period": [
+      1973,
+      2024
+    ],
+    "vegetables": [
+      "ばれいしょ",
+      "キャベツ",
+      "たまねぎ",
+      "だいこん",
+      "はくさい",
+      "トマト",
+      "レタス",
+      "にんじん",
+      "きゅうり",
+      "ねぎ",
+      "なす",
+      "ほうれんそう",
+      "ブロッコリー",
+      "ピーマン",
+      "さといも"
+    ],
+    "sources": [
+      {
+        "name": "全国・根菜類（1973〜2024年）",
+        "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470474&fileKind=0",
+        "file": "roots.xls",
+        "sha256": "035b59fd10374ea57aeca9f129d330dd860e5f041453a098d7ab94fce6cee41d",
+        "updated": "2026-07-03"
+      },
+      {
+        "name": "全国・葉茎菜類（1973〜2024年）",
+        "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470534&fileKind=0",
+        "file": "leaves.xls",
+        "sha256": "a18a891c2eb97e7b294b515bea23868f3d34c70abd0760e541a6c5425076fa6b",
+        "updated": "2026-07-03"
+      },
+      {
+        "name": "全国・果菜類（1973〜2024年）",
+        "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040470594&fileKind=0",
+        "file": "fruits.xls",
+        "sha256": "dc27d0db088a3ebc15906a45ef69b31eec0a91c89aefae8ea978aa59973ac27b",
+        "updated": "2026-07-03"
+      }
+    ],
+    "scope": "全国・品目別年間計・収穫量（t）",
+    "notes": [
+      "15品目は2026年9月時点の指定野菜に対応。過去の指定状況を示すものではない。",
+      "ブロッコリーは1989年にカリフラワーから分離。1973〜1988年は未掲載で、0ではない。",
+      "主産県調査年の全国値には農林水産省による推計を含む。",
+      "季節別区分を加算せず、品目の年間計を直接使用。トマトはミニ・加工用を含み、ばれいしょは春植え・秋植えを含む。",
+      "2025年産は一部品目の公表のみのため、全品目共通の2024年産まで収録。"
+    ]
+  }
+}
