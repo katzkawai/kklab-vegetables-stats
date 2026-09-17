@@ -1,6 +1,7 @@
 import { isCodexBrowser, safeDataAppSourceHref } from "./runtime-environment.js";
 
 const LOCAL_PREVIEW_HOSTNAMES = new Set(["localhost", "127.0.0.1", "::1", "[::1]", "terminal.local"]);
+export const JAPANESE_RESPONSE_INSTRUCTION = "回答は日本語で行ってください。見出し、説明、要約も日本語にしてください。";
 
 // Freeze the rendered datum, not the distance between the axis's display labels.
 // Tick density is a readability decision and says nothing about selection scope.
@@ -121,29 +122,33 @@ export function dashboardAskPrompt({
   componentKind,
   componentTitle,
   selectedContext,
-  selectedContextLabel = "Selected context",
+  selectedContextLabel = "選択した内容",
 }) {
   const trimmedQuestion = question.trim();
   if (!trimmedQuestion) return null;
+  const contextLabel = selectedContextLabel === "Selected point" ? "選択したデータ点"
+    : selectedContextLabel === "Selected context" ? "選択した内容" : selectedContextLabel;
   const viewUrl = safeDataAppSourceHref(dashboardUrl);
   if (viewUrl) {
     const title = String(dashboardTitle ?? "Dashboard").replace(/[\r\n]/gu, " ")
       .replace(/[\\\[\]]/gu, "\\$&");
     return [
-      trimmedQuestion,
-      `Reuse or open [${title}](<${viewUrl}>) in the browser pane; read its current Data app context.`,
-      componentTitle ? `${componentKind === "chart" ? "Chart" : "Component"}: ${componentTitle}` : null,
-      selectedContext ? `${selectedContextLabel}: ${selectedContext}` : null,
+      JAPANESE_RESPONSE_INSTRUCTION,
+      `質問：${trimmedQuestion}`,
+      `ブラウザで[${title}](<${viewUrl}>)の表示を再利用するか開き、現在のデータと表示条件を確認してください。`,
+      componentTitle ? `${componentKind === "chart" ? "グラフ" : "表示項目"}：${componentTitle}` : null,
+      selectedContext ? `${contextLabel}：${selectedContext}` : null,
     ].filter(Boolean).join("\n\n");
   }
   const siteReference = sitesProjectReference(dashboardTitle, dashboardProjectId);
 
   return [
-    siteReference ? `Answer this question about ${siteReference}:` : `Dashboard: ${dashboardTitle}`,
-    dashboardProjectRoot ? `Dashboard project directory: ${dashboardProjectRoot}` : null,
-    componentTitle ? `${componentKind === "chart" ? "Chart" : "Component"}: ${componentTitle}` : null,
-    `${selectedContextLabel}: ${selectedContext}`,
-    `Question: ${trimmedQuestion}`,
+    JAPANESE_RESPONSE_INSTRUCTION,
+    siteReference ? `${siteReference}について、次の質問に回答してください。` : `ダッシュボード：${dashboardTitle}`,
+    dashboardProjectRoot ? `ダッシュボードのプロジェクトディレクトリ：${dashboardProjectRoot}` : null,
+    componentTitle ? `${componentKind === "chart" ? "グラフ" : "表示項目"}：${componentTitle}` : null,
+    selectedContext ? `${contextLabel}：${selectedContext}` : null,
+    `質問：${trimmedQuestion}`,
   ]
     .filter((entry) => entry !== null)
     .join("\n");

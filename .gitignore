@@ -3,6 +3,7 @@ app/dist/
 app/.data-app-offline/
 app/.data-app-cache/
 app/.openai/
+app/.source-build.json
 .venv/
 __pycache__/
 *.pyc

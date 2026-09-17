@@ -10,6 +10,7 @@
 - 期間・品目選択、収穫量（万t）と指数（開始年＝100）の切替
 - 終了年の収穫量、期間増減率、実数比較表、表示データのCSV保存
 - 出典・計算式の確認、PC・スマートフォン対応
+- Ask ChatGPTは質問と表示条件を引き継ぎ、日本語で回答するよう指定
 
 ## データ
 
@@ -52,10 +53,11 @@ python3 scripts/verify_data.py
 
 `app/src/content/dashboard/`が可視化のReact・CSS・計算処理、`app/src/data.json`が表示用データです。Dataプラグインの共通ランタイムを利用しています。
 
-Dataプラグインのインストール先を指定してビルドします。公開用ファイルは`docs/`に同梱されており、GitHub Pagesでの配信時にNodeやPythonは不要です。
+Ask ChatGPTの日本語対応を含む共通ランタイムを反映するため、ソースからビルドします。初回は依存パッケージをインストールし、Dataプラグインのインストール先を指定してください。公開用ファイルは`docs/`に同梱されており、GitHub Pagesでの配信時にNodeやPythonは不要です。
 
 ```bash
 export DATA_PLUGIN_ROOT=/path/to/data-analytics/plugin
+npm ci --prefix app
 # 作業完了時に app/src/data.json の buildStatus を complete に設定
 ./scripts/build_site.sh
 python3 -m http.server 8766 --bind 127.0.0.1 --directory docs

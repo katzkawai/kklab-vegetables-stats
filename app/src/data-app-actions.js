@@ -9,6 +9,9 @@ import { openDataAppHandoff } from "./data-app-handoff.js";
 import { dashboardViewSearchParams } from "./dashboard-url-state.js";
 import { dataAppScheduleCadence, normalizeDataAppRefreshSchedule } from "./data-app-schedule.js";
 import { reportFollowUpRequest } from "./report-follow-up.js";
+import { JAPANESE_RESPONSE_INSTRUCTION } from "./dashboard-ask.js";
+
+const ASK_ACTIONS = new Set(["share-summary", "alert-changes", "create-report", "edit-in-chatgpt"]);
 
 const SCHEDULE_REFRESH_INSTRUCTIONS = "Use @Data and follow skills/schedule-refresh-jobs/SKILL.md";
 
@@ -492,7 +495,8 @@ export function dataAppActionHref(action, context = {}, location = globalThis.wi
     if (error instanceof MissingDataAppAutomationIdentityError || error instanceof MissingDataAppEditIdentityError || error instanceof MissingDataAppReportIdentityError) return null;
     throw error;
   }
-  return codexDataAppPromptUrl(request.prompt, dataAppReference, location, undefined, destination, request.viewUrl).toString();
+  const prompt = ASK_ACTIONS.has(action) ? `${JAPANESE_RESPONSE_INSTRUCTION}\n\n${request.prompt}` : request.prompt;
+  return codexDataAppPromptUrl(prompt, dataAppReference, location, undefined, destination, request.viewUrl).toString();
 }
 
 export async function submitDataAppAction(action, context = {}) {
